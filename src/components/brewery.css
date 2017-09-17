@@ -1,0 +1,22 @@
+.Popup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0, 0.9);
+    color: #fefefe;
+}
+.btnClose {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.Brewery {
+    margin: 2rem;
+}
+.Brewery-Name {
+    font-size: 2rem;
+}

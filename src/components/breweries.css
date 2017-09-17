@@ -1,0 +1,12 @@
+.Brewery-List {
+    background-color: #ccc;
+    overflow-y: auto;
+    height: calc(100vh - 304px);
+}
+.Brewery-Item {
+    cursor: pointer;
+    padding: 1rem;
+}
+.Brewery-Item:hover {
+    background-color: #fefefe;
+}

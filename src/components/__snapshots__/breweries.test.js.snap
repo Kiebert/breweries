@@ -1,0 +1,1462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breweries /> renders 1 item 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="Brewery-List"
+  >
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Achterweg 22",
+          "city": "Limmen",
+          "name": "Brouwerij Dampegheest",
+          "open": Array [
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "1906 AG",
+        }
+      }
+      onClick={[Function]}
+    >
+      Brouwerij Dampegheest
+    </div>
+  </div>,
+  "nodes": Array [
+    <div
+      className="Brewery-List"
+    >
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Achterweg 22",
+            "city": "Limmen",
+            "name": "Brouwerij Dampegheest",
+            "open": Array [
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            "zipcode": "1906 AG",
+          }
+        }
+        onClick={[Function]}
+      >
+        Brouwerij Dampegheest
+      </div>
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Breweries
+        items={
+          Array [
+            Object {
+              "address": "Achterweg 22",
+              "city": "Limmen",
+              "name": "Brouwerij Dampegheest",
+              "open": Array [
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "1906 AG",
+            },
+          ]
+        }
+      />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Breweries {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "items": Array [
+            Object {
+              "address": "Achterweg 22",
+              "city": "Limmen",
+              "name": "Brouwerij Dampegheest",
+              "open": Array [
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "1906 AG",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="Brewery-List"
+        >
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Achterweg 22",
+                "city": "Limmen",
+                "name": "Brouwerij Dampegheest",
+                "open": Array [
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "1906 AG",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Dampegheest
+          </div>
+        </div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="Brewery-List"
+        >
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Achterweg 22",
+                "city": "Limmen",
+                "name": "Brouwerij Dampegheest",
+                "open": Array [
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "1906 AG",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Dampegheest
+          </div>
+        </div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Breweries
+    items={
+      Array [
+        Object {
+          "address": "Achterweg 22",
+          "city": "Limmen",
+          "name": "Brouwerij Dampegheest",
+          "open": Array [
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "1906 AG",
+        },
+      ]
+    }
+  />,
+}
+`;
+
+exports[`<Breweries /> renders long list 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="Brewery-List"
+  >
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Achterweg 22",
+          "city": "Limmen",
+          "name": "Brouwerij Dampegheest",
+          "open": Array [
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "1906 AG",
+        }
+      }
+      onClick={[Function]}
+    >
+      Brouwerij Dampegheest
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Weverij 5",
+          "city": "Amstelveen",
+          "name": "de naeckte brouwers",
+          "open": Array [
+            "Wednesday",
+          ],
+          "zipcode": "1185 ZE",
+        }
+      }
+      onClick={[Function]}
+    >
+      de naeckte brouwers
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Overtocht 43",
+          "city": "Bodegraven",
+          "name": "Brouwerij de Molen",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "2411 BT",
+        }
+      }
+      onClick={[Function]}
+    >
+      Brouwerij de Molen
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Flevoweg 35a",
+          "city": "Leiden",
+          "name": "Leidsch Bier",
+          "open": Array [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "2318 BX",
+        }
+      }
+      onClick={[Function]}
+    >
+      Leidsch Bier
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Aelbrechtskolk 12",
+          "city": "Rotterdam",
+          "name": "Stadsbrouwerij De Pelgrim",
+          "open": Array [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "3024 RE",
+        }
+      }
+      onClick={[Function]}
+    >
+      Stadsbrouwerij De Pelgrim
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Guido Gezellelaan 49",
+          "city": "Mechelen, België",
+          "name": "Brouwerij Het Anker",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "2800",
+        }
+      }
+      onClick={[Function]}
+    >
+      Brouwerij Het Anker
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Funenkade 7",
+          "city": "Amsterdam",
+          "name": "Brouwerij 't IJ",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "1018 AL",
+        }
+      }
+      onClick={[Function]}
+    >
+      Brouwerij 't IJ
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Maar 2",
+          "city": "Jabeek",
+          "name": "Dorpsbrouwerij de Maar",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "6454 AM",
+        }
+      }
+      onClick={[Function]}
+    >
+      Dorpsbrouwerij de Maar
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Schilderweg 214",
+          "city": "Oudeschild",
+          "name": "Texelse Bierbrouwerij",
+          "open": Array [
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "1792 CK",
+        }
+      }
+      onClick={[Function]}
+    >
+      Texelse Bierbrouwerij
+    </div>
+    <div
+      className="Brewery-Item"
+      data={
+        Object {
+          "address": "Pratumplaats 2A",
+          "city": "Utrecht (De Meern)",
+          "name": "Maximus",
+          "open": Array [
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "3454 NA",
+        }
+      }
+      onClick={[Function]}
+    >
+      Maximus
+    </div>
+  </div>,
+  "nodes": Array [
+    <div
+      className="Brewery-List"
+    >
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Achterweg 22",
+            "city": "Limmen",
+            "name": "Brouwerij Dampegheest",
+            "open": Array [
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            "zipcode": "1906 AG",
+          }
+        }
+        onClick={[Function]}
+      >
+        Brouwerij Dampegheest
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Weverij 5",
+            "city": "Amstelveen",
+            "name": "de naeckte brouwers",
+            "open": Array [
+              "Wednesday",
+            ],
+            "zipcode": "1185 ZE",
+          }
+        }
+        onClick={[Function]}
+      >
+        de naeckte brouwers
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Overtocht 43",
+            "city": "Bodegraven",
+            "name": "Brouwerij de Molen",
+            "open": Array [
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            "zipcode": "2411 BT",
+          }
+        }
+        onClick={[Function]}
+      >
+        Brouwerij de Molen
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Flevoweg 35a",
+            "city": "Leiden",
+            "name": "Leidsch Bier",
+            "open": Array [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+            ],
+            "zipcode": "2318 BX",
+          }
+        }
+        onClick={[Function]}
+      >
+        Leidsch Bier
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Aelbrechtskolk 12",
+            "city": "Rotterdam",
+            "name": "Stadsbrouwerij De Pelgrim",
+            "open": Array [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            "zipcode": "3024 RE",
+          }
+        }
+        onClick={[Function]}
+      >
+        Stadsbrouwerij De Pelgrim
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Guido Gezellelaan 49",
+            "city": "Mechelen, België",
+            "name": "Brouwerij Het Anker",
+            "open": Array [
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+            ],
+            "zipcode": "2800",
+          }
+        }
+        onClick={[Function]}
+      >
+        Brouwerij Het Anker
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Funenkade 7",
+            "city": "Amsterdam",
+            "name": "Brouwerij 't IJ",
+            "open": Array [
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+            ],
+            "zipcode": "1018 AL",
+          }
+        }
+        onClick={[Function]}
+      >
+        Brouwerij 't IJ
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Maar 2",
+            "city": "Jabeek",
+            "name": "Dorpsbrouwerij de Maar",
+            "open": Array [
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            "zipcode": "6454 AM",
+          }
+        }
+        onClick={[Function]}
+      >
+        Dorpsbrouwerij de Maar
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Schilderweg 214",
+            "city": "Oudeschild",
+            "name": "Texelse Bierbrouwerij",
+            "open": Array [
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            "zipcode": "1792 CK",
+          }
+        }
+        onClick={[Function]}
+      >
+        Texelse Bierbrouwerij
+      </div>
+      <div
+        className="Brewery-Item"
+        data={
+          Object {
+            "address": "Pratumplaats 2A",
+            "city": "Utrecht (De Meern)",
+            "name": "Maximus",
+            "open": Array [
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            "zipcode": "3454 NA",
+          }
+        }
+        onClick={[Function]}
+      >
+        Maximus
+      </div>
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Breweries
+        items={
+          Array [
+            Object {
+              "address": "Achterweg 22",
+              "city": "Limmen",
+              "name": "Brouwerij Dampegheest",
+              "open": Array [
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "1906 AG",
+            },
+            Object {
+              "address": "Weverij 5",
+              "city": "Amstelveen",
+              "name": "de naeckte brouwers",
+              "open": Array [
+                "Wednesday",
+              ],
+              "zipcode": "1185 ZE",
+            },
+            Object {
+              "address": "Overtocht 43",
+              "city": "Bodegraven",
+              "name": "Brouwerij de Molen",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "2411 BT",
+            },
+            Object {
+              "address": "Flevoweg 35a",
+              "city": "Leiden",
+              "name": "Leidsch Bier",
+              "open": Array [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "2318 BX",
+            },
+            Object {
+              "address": "Aelbrechtskolk 12",
+              "city": "Rotterdam",
+              "name": "Stadsbrouwerij De Pelgrim",
+              "open": Array [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "3024 RE",
+            },
+            Object {
+              "address": "Guido Gezellelaan 49",
+              "city": "Mechelen, België",
+              "name": "Brouwerij Het Anker",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "2800",
+            },
+            Object {
+              "address": "Funenkade 7",
+              "city": "Amsterdam",
+              "name": "Brouwerij 't IJ",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "1018 AL",
+            },
+            Object {
+              "address": "Maar 2",
+              "city": "Jabeek",
+              "name": "Dorpsbrouwerij de Maar",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "6454 AM",
+            },
+            Object {
+              "address": "Schilderweg 214",
+              "city": "Oudeschild",
+              "name": "Texelse Bierbrouwerij",
+              "open": Array [
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "1792 CK",
+            },
+            Object {
+              "address": "Pratumplaats 2A",
+              "city": "Utrecht (De Meern)",
+              "name": "Maximus",
+              "open": Array [
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "3454 NA",
+            },
+          ]
+        }
+      />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Breweries {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "items": Array [
+            Object {
+              "address": "Achterweg 22",
+              "city": "Limmen",
+              "name": "Brouwerij Dampegheest",
+              "open": Array [
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "1906 AG",
+            },
+            Object {
+              "address": "Weverij 5",
+              "city": "Amstelveen",
+              "name": "de naeckte brouwers",
+              "open": Array [
+                "Wednesday",
+              ],
+              "zipcode": "1185 ZE",
+            },
+            Object {
+              "address": "Overtocht 43",
+              "city": "Bodegraven",
+              "name": "Brouwerij de Molen",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "2411 BT",
+            },
+            Object {
+              "address": "Flevoweg 35a",
+              "city": "Leiden",
+              "name": "Leidsch Bier",
+              "open": Array [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "2318 BX",
+            },
+            Object {
+              "address": "Aelbrechtskolk 12",
+              "city": "Rotterdam",
+              "name": "Stadsbrouwerij De Pelgrim",
+              "open": Array [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "3024 RE",
+            },
+            Object {
+              "address": "Guido Gezellelaan 49",
+              "city": "Mechelen, België",
+              "name": "Brouwerij Het Anker",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "2800",
+            },
+            Object {
+              "address": "Funenkade 7",
+              "city": "Amsterdam",
+              "name": "Brouwerij 't IJ",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              "zipcode": "1018 AL",
+            },
+            Object {
+              "address": "Maar 2",
+              "city": "Jabeek",
+              "name": "Dorpsbrouwerij de Maar",
+              "open": Array [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "6454 AM",
+            },
+            Object {
+              "address": "Schilderweg 214",
+              "city": "Oudeschild",
+              "name": "Texelse Bierbrouwerij",
+              "open": Array [
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "zipcode": "1792 CK",
+            },
+            Object {
+              "address": "Pratumplaats 2A",
+              "city": "Utrecht (De Meern)",
+              "name": "Maximus",
+              "open": Array [
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              "zipcode": "3454 NA",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="Brewery-List"
+        >
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Achterweg 22",
+                "city": "Limmen",
+                "name": "Brouwerij Dampegheest",
+                "open": Array [
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "1906 AG",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Dampegheest
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Weverij 5",
+                "city": "Amstelveen",
+                "name": "de naeckte brouwers",
+                "open": Array [
+                  "Wednesday",
+                ],
+                "zipcode": "1185 ZE",
+              }
+            }
+            onClick={[Function]}
+          >
+            de naeckte brouwers
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Overtocht 43",
+                "city": "Bodegraven",
+                "name": "Brouwerij de Molen",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "2411 BT",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij de Molen
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Flevoweg 35a",
+                "city": "Leiden",
+                "name": "Leidsch Bier",
+                "open": Array [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "2318 BX",
+              }
+            }
+            onClick={[Function]}
+          >
+            Leidsch Bier
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Aelbrechtskolk 12",
+                "city": "Rotterdam",
+                "name": "Stadsbrouwerij De Pelgrim",
+                "open": Array [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "3024 RE",
+              }
+            }
+            onClick={[Function]}
+          >
+            Stadsbrouwerij De Pelgrim
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Guido Gezellelaan 49",
+                "city": "Mechelen, België",
+                "name": "Brouwerij Het Anker",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "2800",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Het Anker
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Funenkade 7",
+                "city": "Amsterdam",
+                "name": "Brouwerij 't IJ",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "1018 AL",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij 't IJ
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Maar 2",
+                "city": "Jabeek",
+                "name": "Dorpsbrouwerij de Maar",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "6454 AM",
+              }
+            }
+            onClick={[Function]}
+          >
+            Dorpsbrouwerij de Maar
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Schilderweg 214",
+                "city": "Oudeschild",
+                "name": "Texelse Bierbrouwerij",
+                "open": Array [
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "1792 CK",
+              }
+            }
+            onClick={[Function]}
+          >
+            Texelse Bierbrouwerij
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Pratumplaats 2A",
+                "city": "Utrecht (De Meern)",
+                "name": "Maximus",
+                "open": Array [
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "3454 NA",
+              }
+            }
+            onClick={[Function]}
+          >
+            Maximus
+          </div>
+        </div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="Brewery-List"
+        >
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Achterweg 22",
+                "city": "Limmen",
+                "name": "Brouwerij Dampegheest",
+                "open": Array [
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "1906 AG",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Dampegheest
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Weverij 5",
+                "city": "Amstelveen",
+                "name": "de naeckte brouwers",
+                "open": Array [
+                  "Wednesday",
+                ],
+                "zipcode": "1185 ZE",
+              }
+            }
+            onClick={[Function]}
+          >
+            de naeckte brouwers
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Overtocht 43",
+                "city": "Bodegraven",
+                "name": "Brouwerij de Molen",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "2411 BT",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij de Molen
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Flevoweg 35a",
+                "city": "Leiden",
+                "name": "Leidsch Bier",
+                "open": Array [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "2318 BX",
+              }
+            }
+            onClick={[Function]}
+          >
+            Leidsch Bier
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Aelbrechtskolk 12",
+                "city": "Rotterdam",
+                "name": "Stadsbrouwerij De Pelgrim",
+                "open": Array [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "3024 RE",
+              }
+            }
+            onClick={[Function]}
+          >
+            Stadsbrouwerij De Pelgrim
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Guido Gezellelaan 49",
+                "city": "Mechelen, België",
+                "name": "Brouwerij Het Anker",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "2800",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij Het Anker
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Funenkade 7",
+                "city": "Amsterdam",
+                "name": "Brouwerij 't IJ",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                "zipcode": "1018 AL",
+              }
+            }
+            onClick={[Function]}
+          >
+            Brouwerij 't IJ
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Maar 2",
+                "city": "Jabeek",
+                "name": "Dorpsbrouwerij de Maar",
+                "open": Array [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "6454 AM",
+              }
+            }
+            onClick={[Function]}
+          >
+            Dorpsbrouwerij de Maar
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Schilderweg 214",
+                "city": "Oudeschild",
+                "name": "Texelse Bierbrouwerij",
+                "open": Array [
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                "zipcode": "1792 CK",
+              }
+            }
+            onClick={[Function]}
+          >
+            Texelse Bierbrouwerij
+          </div>
+          <div
+            className="Brewery-Item"
+            data={
+              Object {
+                "address": "Pratumplaats 2A",
+                "city": "Utrecht (De Meern)",
+                "name": "Maximus",
+                "open": Array [
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "zipcode": "3454 NA",
+              }
+            }
+            onClick={[Function]}
+          >
+            Maximus
+          </div>
+        </div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Breweries
+    items={
+      Array [
+        Object {
+          "address": "Achterweg 22",
+          "city": "Limmen",
+          "name": "Brouwerij Dampegheest",
+          "open": Array [
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "1906 AG",
+        },
+        Object {
+          "address": "Weverij 5",
+          "city": "Amstelveen",
+          "name": "de naeckte brouwers",
+          "open": Array [
+            "Wednesday",
+          ],
+          "zipcode": "1185 ZE",
+        },
+        Object {
+          "address": "Overtocht 43",
+          "city": "Bodegraven",
+          "name": "Brouwerij de Molen",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "2411 BT",
+        },
+        Object {
+          "address": "Flevoweg 35a",
+          "city": "Leiden",
+          "name": "Leidsch Bier",
+          "open": Array [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "2318 BX",
+        },
+        Object {
+          "address": "Aelbrechtskolk 12",
+          "city": "Rotterdam",
+          "name": "Stadsbrouwerij De Pelgrim",
+          "open": Array [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "3024 RE",
+        },
+        Object {
+          "address": "Guido Gezellelaan 49",
+          "city": "Mechelen, België",
+          "name": "Brouwerij Het Anker",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "2800",
+        },
+        Object {
+          "address": "Funenkade 7",
+          "city": "Amsterdam",
+          "name": "Brouwerij 't IJ",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          "zipcode": "1018 AL",
+        },
+        Object {
+          "address": "Maar 2",
+          "city": "Jabeek",
+          "name": "Dorpsbrouwerij de Maar",
+          "open": Array [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "6454 AM",
+        },
+        Object {
+          "address": "Schilderweg 214",
+          "city": "Oudeschild",
+          "name": "Texelse Bierbrouwerij",
+          "open": Array [
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          "zipcode": "1792 CK",
+        },
+        Object {
+          "address": "Pratumplaats 2A",
+          "city": "Utrecht (De Meern)",
+          "name": "Maximus",
+          "open": Array [
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "zipcode": "3454 NA",
+        },
+      ]
+    }
+  />,
+}
+`;

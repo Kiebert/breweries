@@ -1,0 +1,12 @@
+.Filter-Introduction {
+    margin: 1rem;
+}
+.Filter-Input {
+    font-family: 'Muli', sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100vw;
+    background-color: #666;
+    color: #fefefe;
+    border:none;
+}
