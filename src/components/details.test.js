@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Brewery from './brewery';
+import Details from './details';
 
-describe('<Brewery />', () => {
-    it('renders brewery information', () => {
+describe('<Details />', () => {
+    it('renders Details information', () => {
 
         const json = {
             name: "Brouwerij Dampegheest",
@@ -14,7 +14,7 @@ describe('<Brewery />', () => {
         }
 
         const component = shallow(
-            <Brewery data={json} />
+            <Details item={json} />
         );
 
         expect(component).toMatchSnapshot();

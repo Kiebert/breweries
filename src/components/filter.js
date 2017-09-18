@@ -8,6 +8,7 @@ class Filter extends React.Component {
             <div className="Filter">
                 <div className="Filter-Introduction">Fill in a name, zipcode, address or city to find your brewery:</div>
                 <input className="Filter-Input" type="text" onChange={this.props.onChange} placeholder="Type here.." />
+                <div className="Filter-Clear">X</div>
             </div>
         )
     }

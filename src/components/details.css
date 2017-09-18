@@ -6,17 +6,26 @@
     top:0;
     background-color: rgba(0,0,0, 0.9);
     color: #fefefe;
+    z-index: 40;
 }
 .btnClose {
     position: absolute;
     right: 2rem;
     top: 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
     cursor: pointer;
+    color: rgba(0,0,0, 0.9);
+    background-color: #fefefe;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+
 }
-.Brewery {
+.Details {
     margin: 2rem;
+    width: calc(100% - 5rem);
 }
-.Brewery-Name {
+.Details-Name {
     font-size: 2rem;
 }

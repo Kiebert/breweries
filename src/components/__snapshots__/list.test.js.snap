@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Breweries /> renders 1 item 1`] = `
+exports[`<List /> renders 1 item 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -9,11 +9,10 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="Brewery-List"
+    className="List"
   >
-    <div
-      className="Brewery-Item"
-      data={
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Achterweg 22",
           "city": "Limmen",
@@ -26,18 +25,14 @@ ShallowWrapper {
           "zipcode": "1906 AG",
         }
       }
-      onClick={[Function]}
-    >
-      Brouwerij Dampegheest
-    </div>
+    />
   </div>,
   "nodes": Array [
     <div
-      className="Brewery-List"
+      className="List"
     >
-      <div
-        className="Brewery-Item"
-        data={
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Achterweg 22",
             "city": "Limmen",
@@ -50,10 +45,7 @@ ShallowWrapper {
             "zipcode": "1906 AG",
           }
         }
-        onClick={[Function]}
-      >
-        Brouwerij Dampegheest
-      </div>
+      />
     </div>,
   ],
   "options": Object {},
@@ -62,7 +54,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <Breweries
+      "_currentElement": <List
         items={
           Array [
             Object {
@@ -82,7 +74,7 @@ ShallowWrapper {
       "_debugID": 3,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": Breweries {
+      "_instance": List {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
@@ -121,11 +113,10 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="Brewery-List"
+          className="List"
         >
-          <div
-            className="Brewery-Item"
-            data={
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Achterweg 22",
                 "city": "Limmen",
@@ -138,18 +129,14 @@ ShallowWrapper {
                 "zipcode": "1906 AG",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Dampegheest
-          </div>
+          />
         </div>,
         "_debugID": 4,
         "_renderedOutput": <div
-          className="Brewery-List"
+          className="List"
         >
-          <div
-            className="Brewery-Item"
-            data={
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Achterweg 22",
                 "city": "Limmen",
@@ -162,10 +149,7 @@ ShallowWrapper {
                 "zipcode": "1906 AG",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Dampegheest
-          </div>
+          />
         </div>,
       },
       "_renderedNodeType": 0,
@@ -178,7 +162,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Breweries
+  "unrendered": <List
     items={
       Array [
         Object {
@@ -198,7 +182,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`<Breweries /> renders long list 1`] = `
+exports[`<List /> renders long list 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -207,11 +191,10 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="Brewery-List"
+    className="List"
   >
-    <div
-      className="Brewery-Item"
-      data={
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Achterweg 22",
           "city": "Limmen",
@@ -224,13 +207,9 @@ ShallowWrapper {
           "zipcode": "1906 AG",
         }
       }
-      onClick={[Function]}
-    >
-      Brouwerij Dampegheest
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Weverij 5",
           "city": "Amstelveen",
@@ -241,13 +220,9 @@ ShallowWrapper {
           "zipcode": "1185 ZE",
         }
       }
-      onClick={[Function]}
-    >
-      de naeckte brouwers
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Overtocht 43",
           "city": "Bodegraven",
@@ -263,13 +238,9 @@ ShallowWrapper {
           "zipcode": "2411 BT",
         }
       }
-      onClick={[Function]}
-    >
-      Brouwerij de Molen
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Flevoweg 35a",
           "city": "Leiden",
@@ -284,13 +255,9 @@ ShallowWrapper {
           "zipcode": "2318 BX",
         }
       }
-      onClick={[Function]}
-    >
-      Leidsch Bier
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Aelbrechtskolk 12",
           "city": "Rotterdam",
@@ -306,13 +273,9 @@ ShallowWrapper {
           "zipcode": "3024 RE",
         }
       }
-      onClick={[Function]}
-    >
-      Stadsbrouwerij De Pelgrim
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Guido Gezellelaan 49",
           "city": "Mechelen, België",
@@ -326,13 +289,9 @@ ShallowWrapper {
           "zipcode": "2800",
         }
       }
-      onClick={[Function]}
-    >
-      Brouwerij Het Anker
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Funenkade 7",
           "city": "Amsterdam",
@@ -346,13 +305,9 @@ ShallowWrapper {
           "zipcode": "1018 AL",
         }
       }
-      onClick={[Function]}
-    >
-      Brouwerij 't IJ
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Maar 2",
           "city": "Jabeek",
@@ -367,13 +322,9 @@ ShallowWrapper {
           "zipcode": "6454 AM",
         }
       }
-      onClick={[Function]}
-    >
-      Dorpsbrouwerij de Maar
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Schilderweg 214",
           "city": "Oudeschild",
@@ -386,13 +337,9 @@ ShallowWrapper {
           "zipcode": "1792 CK",
         }
       }
-      onClick={[Function]}
-    >
-      Texelse Bierbrouwerij
-    </div>
-    <div
-      className="Brewery-Item"
-      data={
+    />
+    <Connect(ListItem)
+      item={
         Object {
           "address": "Pratumplaats 2A",
           "city": "Utrecht (De Meern)",
@@ -407,18 +354,14 @@ ShallowWrapper {
           "zipcode": "3454 NA",
         }
       }
-      onClick={[Function]}
-    >
-      Maximus
-    </div>
+    />
   </div>,
   "nodes": Array [
     <div
-      className="Brewery-List"
+      className="List"
     >
-      <div
-        className="Brewery-Item"
-        data={
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Achterweg 22",
             "city": "Limmen",
@@ -431,13 +374,9 @@ ShallowWrapper {
             "zipcode": "1906 AG",
           }
         }
-        onClick={[Function]}
-      >
-        Brouwerij Dampegheest
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Weverij 5",
             "city": "Amstelveen",
@@ -448,13 +387,9 @@ ShallowWrapper {
             "zipcode": "1185 ZE",
           }
         }
-        onClick={[Function]}
-      >
-        de naeckte brouwers
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Overtocht 43",
             "city": "Bodegraven",
@@ -470,13 +405,9 @@ ShallowWrapper {
             "zipcode": "2411 BT",
           }
         }
-        onClick={[Function]}
-      >
-        Brouwerij de Molen
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Flevoweg 35a",
             "city": "Leiden",
@@ -491,13 +422,9 @@ ShallowWrapper {
             "zipcode": "2318 BX",
           }
         }
-        onClick={[Function]}
-      >
-        Leidsch Bier
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Aelbrechtskolk 12",
             "city": "Rotterdam",
@@ -513,13 +440,9 @@ ShallowWrapper {
             "zipcode": "3024 RE",
           }
         }
-        onClick={[Function]}
-      >
-        Stadsbrouwerij De Pelgrim
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Guido Gezellelaan 49",
             "city": "Mechelen, België",
@@ -533,13 +456,9 @@ ShallowWrapper {
             "zipcode": "2800",
           }
         }
-        onClick={[Function]}
-      >
-        Brouwerij Het Anker
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Funenkade 7",
             "city": "Amsterdam",
@@ -553,13 +472,9 @@ ShallowWrapper {
             "zipcode": "1018 AL",
           }
         }
-        onClick={[Function]}
-      >
-        Brouwerij 't IJ
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Maar 2",
             "city": "Jabeek",
@@ -574,13 +489,9 @@ ShallowWrapper {
             "zipcode": "6454 AM",
           }
         }
-        onClick={[Function]}
-      >
-        Dorpsbrouwerij de Maar
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Schilderweg 214",
             "city": "Oudeschild",
@@ -593,13 +504,9 @@ ShallowWrapper {
             "zipcode": "1792 CK",
           }
         }
-        onClick={[Function]}
-      >
-        Texelse Bierbrouwerij
-      </div>
-      <div
-        className="Brewery-Item"
-        data={
+      />
+      <Connect(ListItem)
+        item={
           Object {
             "address": "Pratumplaats 2A",
             "city": "Utrecht (De Meern)",
@@ -614,10 +521,7 @@ ShallowWrapper {
             "zipcode": "3454 NA",
           }
         }
-        onClick={[Function]}
-      >
-        Maximus
-      </div>
+      />
     </div>,
   ],
   "options": Object {},
@@ -626,7 +530,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <Breweries
+      "_currentElement": <List
         items={
           Array [
             Object {
@@ -757,7 +661,7 @@ ShallowWrapper {
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": Breweries {
+      "_instance": List {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
@@ -907,11 +811,10 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="Brewery-List"
+          className="List"
         >
-          <div
-            className="Brewery-Item"
-            data={
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Achterweg 22",
                 "city": "Limmen",
@@ -924,13 +827,9 @@ ShallowWrapper {
                 "zipcode": "1906 AG",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Dampegheest
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Weverij 5",
                 "city": "Amstelveen",
@@ -941,13 +840,9 @@ ShallowWrapper {
                 "zipcode": "1185 ZE",
               }
             }
-            onClick={[Function]}
-          >
-            de naeckte brouwers
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Overtocht 43",
                 "city": "Bodegraven",
@@ -963,13 +858,9 @@ ShallowWrapper {
                 "zipcode": "2411 BT",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij de Molen
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Flevoweg 35a",
                 "city": "Leiden",
@@ -984,13 +875,9 @@ ShallowWrapper {
                 "zipcode": "2318 BX",
               }
             }
-            onClick={[Function]}
-          >
-            Leidsch Bier
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Aelbrechtskolk 12",
                 "city": "Rotterdam",
@@ -1006,13 +893,9 @@ ShallowWrapper {
                 "zipcode": "3024 RE",
               }
             }
-            onClick={[Function]}
-          >
-            Stadsbrouwerij De Pelgrim
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Guido Gezellelaan 49",
                 "city": "Mechelen, België",
@@ -1026,13 +909,9 @@ ShallowWrapper {
                 "zipcode": "2800",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Het Anker
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Funenkade 7",
                 "city": "Amsterdam",
@@ -1046,13 +925,9 @@ ShallowWrapper {
                 "zipcode": "1018 AL",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij 't IJ
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Maar 2",
                 "city": "Jabeek",
@@ -1067,13 +942,9 @@ ShallowWrapper {
                 "zipcode": "6454 AM",
               }
             }
-            onClick={[Function]}
-          >
-            Dorpsbrouwerij de Maar
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Schilderweg 214",
                 "city": "Oudeschild",
@@ -1086,13 +957,9 @@ ShallowWrapper {
                 "zipcode": "1792 CK",
               }
             }
-            onClick={[Function]}
-          >
-            Texelse Bierbrouwerij
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Pratumplaats 2A",
                 "city": "Utrecht (De Meern)",
@@ -1107,18 +974,14 @@ ShallowWrapper {
                 "zipcode": "3454 NA",
               }
             }
-            onClick={[Function]}
-          >
-            Maximus
-          </div>
+          />
         </div>,
         "_debugID": 2,
         "_renderedOutput": <div
-          className="Brewery-List"
+          className="List"
         >
-          <div
-            className="Brewery-Item"
-            data={
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Achterweg 22",
                 "city": "Limmen",
@@ -1131,13 +994,9 @@ ShallowWrapper {
                 "zipcode": "1906 AG",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Dampegheest
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Weverij 5",
                 "city": "Amstelveen",
@@ -1148,13 +1007,9 @@ ShallowWrapper {
                 "zipcode": "1185 ZE",
               }
             }
-            onClick={[Function]}
-          >
-            de naeckte brouwers
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Overtocht 43",
                 "city": "Bodegraven",
@@ -1170,13 +1025,9 @@ ShallowWrapper {
                 "zipcode": "2411 BT",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij de Molen
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Flevoweg 35a",
                 "city": "Leiden",
@@ -1191,13 +1042,9 @@ ShallowWrapper {
                 "zipcode": "2318 BX",
               }
             }
-            onClick={[Function]}
-          >
-            Leidsch Bier
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Aelbrechtskolk 12",
                 "city": "Rotterdam",
@@ -1213,13 +1060,9 @@ ShallowWrapper {
                 "zipcode": "3024 RE",
               }
             }
-            onClick={[Function]}
-          >
-            Stadsbrouwerij De Pelgrim
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Guido Gezellelaan 49",
                 "city": "Mechelen, België",
@@ -1233,13 +1076,9 @@ ShallowWrapper {
                 "zipcode": "2800",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij Het Anker
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Funenkade 7",
                 "city": "Amsterdam",
@@ -1253,13 +1092,9 @@ ShallowWrapper {
                 "zipcode": "1018 AL",
               }
             }
-            onClick={[Function]}
-          >
-            Brouwerij 't IJ
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Maar 2",
                 "city": "Jabeek",
@@ -1274,13 +1109,9 @@ ShallowWrapper {
                 "zipcode": "6454 AM",
               }
             }
-            onClick={[Function]}
-          >
-            Dorpsbrouwerij de Maar
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Schilderweg 214",
                 "city": "Oudeschild",
@@ -1293,13 +1124,9 @@ ShallowWrapper {
                 "zipcode": "1792 CK",
               }
             }
-            onClick={[Function]}
-          >
-            Texelse Bierbrouwerij
-          </div>
-          <div
-            className="Brewery-Item"
-            data={
+          />
+          <Connect(ListItem)
+            item={
               Object {
                 "address": "Pratumplaats 2A",
                 "city": "Utrecht (De Meern)",
@@ -1314,10 +1141,7 @@ ShallowWrapper {
                 "zipcode": "3454 NA",
               }
             }
-            onClick={[Function]}
-          >
-            Maximus
-          </div>
+          />
         </div>,
       },
       "_renderedNodeType": 0,
@@ -1330,7 +1154,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Breweries
+  "unrendered": <List
     items={
       Array [
         Object {

@@ -1,0 +1,17 @@
+.List {
+    background-color: rgba(0,0,0,0.8);
+    overflow-y: auto;
+    height: calc(100% - 225px);
+    position: absolute;
+    top: 225px;
+    width: 100%;
+}
+.List-Item {
+    cursor: pointer;
+    padding: 1rem;
+    color: #fefefe;
+}
+.List-Item:hover {
+    background-color: #fefefe;
+    color: #000;
+}

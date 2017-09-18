@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Brewery /> renders brewery information 1`] = `
+exports[`<Details /> renders Details information 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -13,37 +13,39 @@ ShallowWrapper {
     onClick={undefined}
   >
     <div
-      className="Brewery"
+      className="Details"
     >
       <div
-        className="Brewery-Name"
+        className="Details-Name"
       >
         Brouwerij Dampegheest
          
       </div>
       <div>
-        Address: 
         Achterweg 22
          
       </div>
       <div>
-        Zipcode: 
         1906 AG
          
       </div>
       <div>
-        City: 
         Limmen
          
       </div>
+      <br />
       <div>
-        Friday
-      </div>
-      <div>
-        Saturday
-      </div>
-      <div>
-        Sunday
+        Open:
+        <br />
+        <div>
+          Friday
+        </div>
+        <div>
+          Saturday
+        </div>
+        <div>
+          Sunday
+        </div>
       </div>
       <div
         className="btnClose"
@@ -58,37 +60,39 @@ ShallowWrapper {
       onClick={undefined}
     >
       <div
-        className="Brewery"
+        className="Details"
       >
         <div
-          className="Brewery-Name"
+          className="Details-Name"
         >
           Brouwerij Dampegheest
            
         </div>
         <div>
-          Address: 
           Achterweg 22
            
         </div>
         <div>
-          Zipcode: 
           1906 AG
            
         </div>
         <div>
-          City: 
           Limmen
            
         </div>
+        <br />
         <div>
-          Friday
-        </div>
-        <div>
-          Saturday
-        </div>
-        <div>
-          Sunday
+          Open:
+          <br />
+          <div>
+            Friday
+          </div>
+          <div>
+            Saturday
+          </div>
+          <div>
+            Sunday
+          </div>
         </div>
         <div
           className="btnClose"
@@ -105,7 +109,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <Brewery
-        data={
+        item={
           Object {
             "address": "Achterweg 22",
             "city": "Limmen",
@@ -126,7 +130,7 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "data": Object {
+          "item": Object {
             "address": "Achterweg 22",
             "city": "Limmen",
             "name": "Brouwerij Dampegheest",
@@ -163,37 +167,39 @@ ShallowWrapper {
           onClick={undefined}
         >
           <div
-            className="Brewery"
+            className="Details"
           >
             <div
-              className="Brewery-Name"
+              className="Details-Name"
             >
               Brouwerij Dampegheest
                
             </div>
             <div>
-              Address: 
               Achterweg 22
                
             </div>
             <div>
-              Zipcode: 
               1906 AG
                
             </div>
             <div>
-              City: 
               Limmen
                
             </div>
+            <br />
             <div>
-              Friday
-            </div>
-            <div>
-              Saturday
-            </div>
-            <div>
-              Sunday
+              Open:
+              <br />
+              <div>
+                Friday
+              </div>
+              <div>
+                Saturday
+              </div>
+              <div>
+                Sunday
+              </div>
             </div>
             <div
               className="btnClose"
@@ -208,37 +214,39 @@ ShallowWrapper {
           onClick={undefined}
         >
           <div
-            className="Brewery"
+            className="Details"
           >
             <div
-              className="Brewery-Name"
+              className="Details-Name"
             >
               Brouwerij Dampegheest
                
             </div>
             <div>
-              Address: 
               Achterweg 22
                
             </div>
             <div>
-              Zipcode: 
               1906 AG
                
             </div>
             <div>
-              City: 
               Limmen
                
             </div>
+            <br />
             <div>
-              Friday
-            </div>
-            <div>
-              Saturday
-            </div>
-            <div>
-              Sunday
+              Open:
+              <br />
+              <div>
+                Friday
+              </div>
+              <div>
+                Saturday
+              </div>
+              <div>
+                Sunday
+              </div>
             </div>
             <div
               className="btnClose"
@@ -259,7 +267,7 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <Brewery
-    data={
+    item={
       Object {
         "address": "Achterweg 22",
         "city": "Limmen",

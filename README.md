@@ -1,6 +1,6 @@
 # Breweries
 
-A react web-app for finding breweries.
+A React/Redux web-app for finding breweries.
 
 ## Available Scripts
 

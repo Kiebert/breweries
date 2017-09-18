@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Breweries from './breweries';
+import List from './list';
 
-describe('<Breweries />', () => {
+describe('<List />', () => {
     it('renders long list', () => {
 
         const breweriesJson = [
@@ -131,7 +131,7 @@ describe('<Breweries />', () => {
         ];
 
         const component = shallow(
-            <Breweries items={breweriesJson} />
+            <List items={breweriesJson} />
         );
 
         expect(component).toMatchSnapshot();
@@ -155,7 +155,7 @@ describe('<Breweries />', () => {
         ];
 
         const component = shallow(
-            <Breweries items={breweriesJson} />
+            <List items={breweriesJson} />
         );
 
         expect(component).toMatchSnapshot();

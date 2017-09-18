@@ -3,24 +3,9 @@ import './maps.css';
 
 class Maps extends Component {
 
-    // shouldComponentUpdate() {
-    //     return false;
-    // }
     constructor() {
         super();
         this.markers = [];
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-        if (nextProps !== this.props) {
-            this._setOptions(
-                nextProps.lat,
-                nextProps.lng,
-                nextProps.zoom
-            );
-        }
-
     }
 
     componentDidMount() {
@@ -29,13 +14,11 @@ class Maps extends Component {
         this.renderMap();
     }
 
-    _setOptions(lat, lng, zoom) {
+    setOptions(lat, lng, zoom) {
         let mapOptions = {
             center: { lat, lng },
             zoom
         };
-
-        console.log('this.map:', this._map);
         this._map.setOptions(mapOptions);
 
         this.setMarkers(this._map);
@@ -53,9 +36,10 @@ class Maps extends Component {
             }
             this.markers = [];
         }
-        //window.google.maps.event.addListenerOnce(this._map, 'tilesloaded', () => {
+
         for (let i = 0; i < this.props.addresses.length; ++i) {
-            const fulladress = this.props.addresses[i].name + ' ' + this.props.addresses[i].address + ' ' + this.props.addresses[i].zipcode + ' ' + this.props.addresses[i].city;
+            const data = this.props.addresses[i];
+            const fulladress = data.name + ' ' + data.address + ' ' + data.zipcode + ' ' + data.city;
             this.geocoder.geocode({
                 address: fulladress,
                 region: 'NL'
@@ -66,19 +50,38 @@ class Maps extends Component {
                         map: _map
                     });
 
+                    marker.addListener('click', () => this.clickMarker(marker, data) );
+              
+
                     this.markers.push(marker);
                 }
 
             })
         }
-        //});
+    }
+
+    clickMarker(marker, data) {
+        this._map.setZoom(14);
+        this._map.setCenter(marker.getPosition());
+        console.log('clickMarker data: ', data);
+
+        this.props.onClick({item:data});
     }
 
     renderMap() {
 
         let mapOptions = {
             center: { lat: this.props.lat, lng: this.props.lng },
-            zoom: this.props.zoom
+            zoom: this.props.zoom,
+            zoomControl: true,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            fullscreenControl: false
+          
+            
+            
         }
         this._map = new window.google.maps.Map(this._mapelement, mapOptions);
 

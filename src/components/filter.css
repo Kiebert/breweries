@@ -1,12 +1,31 @@
+.Filter {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    left:0;
+    top: 110px;
+    height: 110px;
+    background-color: rgba(250,250,250,0.8);
+}
+
 .Filter-Introduction {
     margin: 1rem;
+    font-size: 0.8rem;
 }
 .Filter-Input {
     font-family: 'Muli', sans-serif;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 100vw;
-    background-color: #666;
+    width: 100%;
+    background-color: rgba(200,200,200,0.8);
     color: #fefefe;
     border:none;
+}
+@media screen and (max-width: 480px) {
+    .Filter-Introduction {
+        font-size: 3vw;
+    }
+    .Filter-Input {
+        font-size: 1.2rem;
+    }
 }

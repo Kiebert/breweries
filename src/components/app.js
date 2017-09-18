@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import logo from './../logo.svg';
 import { breweries } from './../data/breweries.json';
 import './app.css';
-import Breweries from './breweries';
-import Maps from './maps';
-import Brewery from './brewery';
+import List from './list';
+import Maps from './../containers/maps';
+import Details from './../containers/details';
+//import Brewery from './brewery';
 import Filter from './filter';
+
+
 
 class App extends Component {
 
   constructor() {
     super();
     this.state = {
-      breweries: [],
-      currentBrewery: null
+      breweries: []
     }
   }
 
@@ -38,40 +40,26 @@ class App extends Component {
     this.setState({ breweries: foundBreweries });
   }
 
-  onBreweryClick = (currentBrewery) => {
-    this.setState({
-      currentBrewery
-    })
-  }
-
-  onCloseBrewery = () => {
-    this.setState({
-      currentBrewery: null
-    })
-  }
-
   render() {
     return (
       <div className="App">
+
+        {window.google &&
+          <Maps zoom={7} lat={52.0552809} lng={4.7969374} addresses={breweries} />
+        }
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Brewery finder</h2>
+          <h2><img src={logo} className="App-logo" alt="logo" /> Brewery finder</h2>
         </div>
+
         <Filter onChange={this.onFilterChange} />
         {this.state.breweries.length === 0 &&
           <div className="App-Feedback">No breweries found</div>
         }
-        { window.google && this.state.breweries.length === 0 &&
-          <Maps zoom={7} lat={52.0552809} lng={4.7969374} addresses={breweries}/>
-        }
-
 
         {this.state.breweries.length > 0 &&
-          <Breweries items={this.state.breweries} onClick={this.onBreweryClick} />
+          <List items={this.state.breweries} />
         }
-        {this.state.currentBrewery !== null &&
-          <Brewery data={this.state.currentBrewery} onCloseBrewery={this.onCloseBrewery} />
-        }
+        <Details />
       </div>
     );
   }
