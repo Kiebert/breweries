@@ -5,21 +5,34 @@
     left:0;
     top: 110px;
     height: 110px;
-    background-color: rgba(250,250,250,0.8);
+    background-color: rgba(0,0,0,0.8);
+    
 }
 
 .Filter-Introduction {
-    margin: 1rem;
+    padding: 1rem;
     font-size: 0.8rem;
+    width: 100%;
+    background-color: rgba(250,250,250,0.8);
 }
 .Filter-Input {
     font-family: 'Muli', sans-serif;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 100%;
-    background-color: rgba(200,200,200,0.8);
+    width: calc(100% - 6rem);
+    
     color: #fefefe;
     border:none;
+    float: left;
+    background: transparent;
+}
+.Filter-Clear {
+    font-size: 1.5rem;
+    width: 2rem;
+    padding: 1rem;
+    float: left;
+    color: #fefefe;
+    
 }
 @media screen and (max-width: 480px) {
     .Filter-Introduction {

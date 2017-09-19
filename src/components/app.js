@@ -19,13 +19,14 @@ class App extends Component {
     }
   }
 
-  onFilterChange = (e) => {
+  onFilterChange = (e = null) => {
 
-    const filter = e.target.value.toLowerCase();
-    if (filter === '') {
+    
+    if (e === null) {
       this.setState({ breweries: [] });
       return;
     }
+    const filter = e.target.value.toLowerCase();
     let foundBreweries = [];
     for (let i = 0; i < breweries.length; i++) {
       if (
@@ -45,7 +46,7 @@ class App extends Component {
       <div className="App">
 
         {window.google &&
-          <Maps zoom={7} lat={52.0552809} lng={4.7969374} addresses={breweries} />
+          <Maps addresses={breweries} />
         }
         <div className="App-header">
           <h2><img src={logo} className="App-logo" alt="logo" /> Brewery finder</h2>

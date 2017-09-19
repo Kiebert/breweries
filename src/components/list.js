@@ -1,21 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './list.css';
 import ListItem from './../containers/listitem';
 
-class List extends React.Component {
+const List = (props) => {
 
-    render() {
-        const items = this.props.items;
-        return (
-            <div className="List">
-                {items !== null && items.map(item => {
-                    return (
-                        <ListItem item={item} key={item.name} />
-                    );
-                })}
-            </div>
-        )
-    }
+    return (
+        <div className="List">
+            {props.items !== null && props.items.map(item => {
+                return (
+                    <ListItem item={item} key={item.name} />
+                );
+            })}
+        </div>
+    )
+
 }
 
+List.propTypes = {
+    items: PropTypes.array
+}
+List.defaultProps = {
+    items: []
+}
 export default List;

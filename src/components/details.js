@@ -1,35 +1,41 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './details.css';
 
-class Brewery extends React.Component {
+const Details = (props) => {
 
-    render() {
-
-        if (this.props.item === null) {
-            return null;
-        }
-
-        const data = this.props.item;
-
-        return (
-            <div className="Popup" onClick={this.props.onClick}>
-                <div className="Details">
-                    <div className="Details-Name">{data.name} </div>
-                    <div>{data.address} </div>
-                    <div>{data.zipcode} </div>
-                    <div>{data.city} </div>
-                    <br />
-                    <div>Open:<br />
-                        {data.open.map(day => {
-                            return <div key={day}>{day}</div>
-                        })}
-                    </div>
-                    <div className="btnClose">X</div>
-                </div>
-            </div>
-        )
+    if (props.item === null) {
+        return null;
     }
+
+    return (
+        <div className="Popup" onClick={props.onClick}>
+            <div className="Details">
+                <div className="Details-Name">{props.item.name} </div>
+                <div>{props.item.address} </div>
+                <div>{props.item.zipcode} </div>
+                <div>{props.item.city} </div>
+                <br />
+                <div>Open:<br />
+                    {props.item.open.map(day => {
+                        return <div key={day}>{day}</div>
+                    })}
+                </div>
+                <div className="btnClose">X</div>
+            </div>
+        </div>
+    )
 }
 
-export default Brewery;
+Details.propTypes = {
+    onClick: PropTypes.func,
+    item: PropTypes.object
+}
+
+Details.defaultProps = {
+    onClick: null,
+    item: null
+}
+
+export default Details;
 

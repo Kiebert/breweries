@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './maps.css';
 
 class Maps extends Component {
@@ -63,8 +64,6 @@ class Maps extends Component {
     clickMarker(marker, data) {
         this._map.setZoom(14);
         this._map.setCenter(marker.getPosition());
-        console.log('clickMarker data: ', data);
-
         this.props.onClick({item:data});
     }
 
@@ -79,9 +78,7 @@ class Maps extends Component {
             streetViewControl: false,
             rotateControl: false,
             fullscreenControl: false
-          
-            
-            
+
         }
         this._map = new window.google.maps.Map(this._mapelement, mapOptions);
 
@@ -96,5 +93,18 @@ class Maps extends Component {
         );
     }
 }
+Maps.propTypes = {
+    addresses : PropTypes.array,
+    lat: PropTypes.number,
+    lng: PropTypes.number,
+    zoom: PropTypes.number,
+}
+Maps.defaultProps = {
+    addresses : [],
+    zoom : 7,
+    lat: 52.0552809,
+    lng: 4.7969374
+}
+
 
 export default Maps;

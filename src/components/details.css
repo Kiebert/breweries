@@ -24,7 +24,7 @@
 }
 .Details {
     margin: 2rem;
-    width: calc(100% - 5rem);
+    width: calc(100% - 7rem);
 }
 .Details-Name {
     font-size: 2rem;

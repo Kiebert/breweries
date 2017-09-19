@@ -10,7 +10,7 @@ ShallowWrapper {
   "length": 1,
   "node": <div
     className="Popup"
-    onClick={undefined}
+    onClick={null}
   >
     <div
       className="Details"
@@ -57,7 +57,7 @@ ShallowWrapper {
   "nodes": Array [
     <div
       className="Popup"
-      onClick={undefined}
+      onClick={null}
     >
       <div
         className="Details"
@@ -106,9 +106,9 @@ ShallowWrapper {
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 0,
+      "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Brewery
+      "_currentElement": <Details
         item={
           Object {
             "address": "Achterweg 22",
@@ -122,11 +122,12 @@ ShallowWrapper {
             "zipcode": "1906 AG",
           }
         }
+        onClick={null}
       />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": Brewery {
+      "_instance": StatelessComponent {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
@@ -141,6 +142,7 @@ ShallowWrapper {
             ],
             "zipcode": "1906 AG",
           },
+          "onClick": null,
         },
         "refs": Object {},
         "state": null,
@@ -164,7 +166,7 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
           className="Popup"
-          onClick={undefined}
+          onClick={null}
         >
           <div
             className="Details"
@@ -211,7 +213,7 @@ ShallowWrapper {
         "_debugID": 2,
         "_renderedOutput": <div
           className="Popup"
-          onClick={undefined}
+          onClick={null}
         >
           <div
             className="Details"
@@ -266,7 +268,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Brewery
+  "unrendered": <Details
     item={
       Object {
         "address": "Achterweg 22",
@@ -280,6 +282,7 @@ ShallowWrapper {
         "zipcode": "1906 AG",
       }
     }
+    onClick={null}
   />,
 }
 `;

@@ -1,19 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './list.css';
 
-class ListItem extends React.Component {
+const ListItem =  (props) => {
 
-    render() {
-        const item = this.props.item;
-        return (
-            <div
-                className="List-Item"
-                onClick={() => this.props.onClick(item)}
-            >
-                {item.name}
-            </div>
-        );
-    }
+    return (
+        <div
+            className="List-Item"
+            onClick={() => props.onClick(props.item)}
+        >
+            {props.item.name}
+        </div>
+    );
+  
 }
+
+ListItem.propTypes = {
+    item: PropTypes.object.isRequired,
+    onClick: PropTypes.func
+}
+
 
 export default ListItem;
