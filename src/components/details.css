@@ -8,23 +8,22 @@
     color: #fefefe;
     z-index: 40;
 }
-.btnClose {
+.Button-Close {
     position: absolute;
-    right: 2rem;
-    top: 2rem;
+    right: 1rem;
+    top: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: rgba(0,0,0, 0.9);
-    background-color: #fefefe;
+
     width: 3rem;
     height: 3rem;
     line-height: 3rem;
     text-align: center;
-
+    padding: 1rem;
 }
 .Details {
     margin: 2rem;
-    width: calc(100% - 7rem);
+    width: calc(100% - 8rem);
 }
 .Details-Name {
     font-size: 2rem;

@@ -6,7 +6,7 @@ const ListItem =  (props) => {
 
     return (
         <div
-            className="List-Item"
+            className="Button List-Item"
             onClick={() => props.onClick(props.item)}
         >
             {props.item.name}

@@ -26,13 +26,14 @@
     float: left;
     background: transparent;
 }
-.Filter-Clear {
+.Button-Clear {
     font-size: 1.5rem;
     width: 2rem;
     padding: 1rem;
-    float: left;
     color: #fefefe;
-    
+    position: absolute;
+    right: 0;
+    text-align: center;
 }
 @media screen and (max-width: 480px) {
     .Filter-Introduction {

@@ -6,12 +6,10 @@
     top: 225px;
     width: 100%;
 }
+
 .List-Item {
     cursor: pointer;
     padding: 1rem;
     color: #fefefe;
-}
-.List-Item:hover {
-    background-color: #fefefe;
-    color: #000;
+    position: relative;
 }

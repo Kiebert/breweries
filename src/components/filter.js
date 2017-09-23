@@ -17,7 +17,7 @@ class Filter extends React.Component {
                 <input className="Filter-Input" type="text" onChange={this.props.onChange} placeholder="Type here.." ref={i => this.input = i} />
 
                 { showClearBtn && 
-                    <div className="Filter-Clear" onClick={this.clearInput}>X</div>
+                    <div className="Button Button-Clear" onClick={this.clearInput}>X</div>
                 }
             </div>
         )

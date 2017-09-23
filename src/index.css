@@ -1,6 +1,34 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Muli', sans-serif;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+}
+*:focus {
+  outline: none;
+}
+
+.Button {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fefefe;
+    overflow: hidden;
+}
+
+.Button:after {
+    content: '';
+    display: block;
+    width: 40rem;
+    height: 40rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, 0) 100%);
+    opacity: .8;
+    transform: translateY(0) translateX(-100%) rotateZ(110deg);
+    z-index: 1;
+    position: absolute;
+}
+
+.Button:hover:after {
+    transform: translateY(calc(100% - 4.8rem)) translateX(200%) rotateZ(110deg);
+    transition: 1.2s cubic-bezier(.215, .61, .355, 1)
 }

@@ -11,7 +11,7 @@ const Details = (props) => {
     return (
         <div className="Popup" onClick={props.onClick}>
             <div className="Details">
-                <div className="Details-Name">{props.item.name} </div>
+                <div className="Details-Name">{props.item.name}</div>
                 <div>{props.item.address} </div>
                 <div>{props.item.zipcode} </div>
                 <div>{props.item.city} </div>
@@ -21,7 +21,7 @@ const Details = (props) => {
                         return <div key={day}>{day}</div>
                     })}
                 </div>
-                <div className="btnClose">X</div>
+                <div className="Button-Close Button">X</div>
             </div>
         </div>
     )

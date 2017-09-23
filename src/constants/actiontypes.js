@@ -1,0 +1,2 @@
+export const DETAILS_OPEN = 'DETAILS_OPEN';
+export const DETAILS_CLOSE = 'DETAILS_CLOSE';

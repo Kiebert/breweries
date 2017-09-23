@@ -5,10 +5,7 @@ import './app.css';
 import List from './list';
 import Maps from './../containers/maps';
 import Details from './../containers/details';
-//import Brewery from './brewery';
 import Filter from './filter';
-
-
 
 class App extends Component {
 
@@ -19,8 +16,13 @@ class App extends Component {
     }
   }
 
-  onFilterChange = (e = null) => {
+  onClickLogo = () => {
+    this.setState({
+      breweries: []
+    })
+  }
 
+  onFilterChange = (e = null) => {
     
     if (e === null) {
       this.setState({ breweries: [] });
@@ -44,12 +46,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
         {window.google &&
           <Maps addresses={breweries} />
         }
         <div className="App-header">
-          <h2><img src={logo} className="App-logo" alt="logo" /> Brewery finder</h2>
+          <h2 className="App-Title"><img src={logo} className="App-logo" alt="logo" onClick={this.onClickLogo}/> Brewery finder</h2>
         </div>
 
         <Filter onChange={this.onFilterChange} />

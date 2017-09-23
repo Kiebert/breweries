@@ -84,7 +84,6 @@ class Maps extends Component {
 
         this.setMarkers(this._map);
 
-
     }
 
     render() {

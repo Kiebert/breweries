@@ -1,3 +1,8 @@
+import { 
+    DETAILS_OPEN, 
+    DETAILS_CLOSE
+} from './../constants/actiontypes';
+
 const defaultState = {
     item: null
 }
@@ -5,9 +10,9 @@ const defaultState = {
 const details = (state = defaultState, action) => {
 
     switch (action.type) {
-        case 'DETAILS_OPEN':
+        case DETAILS_OPEN:
             return { ...state, item: action.payload.item };
-        case 'DETAILS_CLOSE':
+        case DETAILS_CLOSE:
             return { ...state, item: null };
         default:
             return state
